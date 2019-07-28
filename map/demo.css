@@ -1,0 +1,25 @@
+
+#map {
+    width: 95%;
+    height: 450px;
+    background: grey;
+}
+
+#panel {
+    width: 100%;
+    height: 400px;
+}
+#result {
+    border: 1px solid lightcyan;
+    background: lightcyan;
+    list-style: none;
+    padding-left: 12px;
+    position: absolute;
+    z-index: 999;
+    width: 600px;
+}
+
+    #result li {
+        padding: 3px 0px;
+        cursor: pointer;
+    }
